@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B521D8672536E77B002FC547 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521D8662536E77B002FC547 /* AboutView.swift */; };
 		B555EEF8251E9D6100449866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555EEF7251E9D6100449866 /* AppDelegate.swift */; };
 		B555EEFA251E9D6100449866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555EEF9251E9D6100449866 /* SceneDelegate.swift */; };
 		B555EEFC251E9D6100449866 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555EEFB251E9D6100449866 /* ContentView.swift */; };
@@ -35,7 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B555EEF4251E9D6100449866 /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B521D8662536E77B002FC547 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		B555EEF4251E9D6100449866 /* example009.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example009.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B555EEF7251E9D6100449866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B555EEF9251E9D6100449866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B555EEFB251E9D6100449866 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,7 +91,7 @@
 		B555EEF5251E9D6100449866 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B555EEF4251E9D6100449866 /* example.app */,
+				B555EEF4251E9D6100449866 /* example009.app */,
 				B555EF0A251E9D6400449866 /* exampleTests.xctest */,
 				B555EF15251E9D6400449866 /* exampleUITests.xctest */,
 			);
@@ -102,6 +104,7 @@
 				B555EEF7251E9D6100449866 /* AppDelegate.swift */,
 				B555EEF9251E9D6100449866 /* SceneDelegate.swift */,
 				B555EEFB251E9D6100449866 /* ContentView.swift */,
+				B521D8662536E77B002FC547 /* AboutView.swift */,
 				B555EEFD251E9D6400449866 /* Assets.xcassets */,
 				B555EF02251E9D6400449866 /* LaunchScreen.storyboard */,
 				B555EF05251E9D6400449866 /* Info.plist */,
@@ -153,7 +156,7 @@
 			);
 			name = example;
 			productName = example;
-			productReference = B555EEF4251E9D6100449866 /* example.app */;
+			productReference = B555EEF4251E9D6100449866 /* example009.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B555EF09251E9D6400449866 /* exampleTests */ = {
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B521D8672536E77B002FC547 /* AboutView.swift in Sources */,
 				B555EEF8251E9D6100449866 /* AppDelegate.swift in Sources */,
 				B555EEFA251E9D6100449866 /* SceneDelegate.swift in Sources */,
 				B555EEFC251E9D6100449866 /* ContentView.swift in Sources */,
@@ -443,7 +447,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.solisortum.example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = example009;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,7 +466,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.solisortum.example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = example009;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
